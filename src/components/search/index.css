@@ -1,0 +1,16 @@
+.search__input{
+    border: none;
+   font-size: 1.2rem;
+   line-height: 1.6rem;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.search{
+  box-sizing: border-box;
+  padding-top: .7rem;
+}
+.search__icon{
+    margin-right: 2rem;
+    margin-bottom: -0.3rem;
+}
