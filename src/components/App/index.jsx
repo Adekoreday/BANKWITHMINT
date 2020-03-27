@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../header';
-import SideNav from '../sideNav'
+import DashBoard from '../dashboard';
 
 const App = () => {
     return (
         <div>
             <Header></Header>
-            <SideNav></SideNav>
+            <DashBoard></DashBoard>
         </div>
     );
 };

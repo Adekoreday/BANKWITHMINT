@@ -5,6 +5,8 @@
     background: #FFFFFF;
     padding: 1rem;
     align-items: baseline;
+    position: relative;
+    z-index: 2;
 }
 .notification__badge{
     margin-top: -.6rem !important;
