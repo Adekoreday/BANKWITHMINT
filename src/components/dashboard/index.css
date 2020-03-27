@@ -1,10 +1,12 @@
 .user_dashboard{
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: auto;
     justify-content: flex-start;
-    overflow: visible;
     flex-grow: 1;
+    margin: 5rem 7rem 3rem 3rem;
+    box-sizing: border-box;
+    overflow: scroll;
 }
 .user-aside{
     width: 26.6rem;

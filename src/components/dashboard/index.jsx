@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NotFound from '../notfound';
 import SideNav from '../sideNav';
+import TransactionSection from '../TransactionSection';
 import AllPaymentsImg from '../../images/svg/allPayments.svg';
 import OverviewImg from '../../images/svg/speedometer.svg';
 import ReconciledPayImg from '../../images/svg/reconcilePay.svg';
@@ -115,7 +116,7 @@ class UserDashBoard extends Component {
 
           </div>
           <div className="user_dashboard">
-                hello
+            <TransactionSection />
           </div>
         </div>
       );
