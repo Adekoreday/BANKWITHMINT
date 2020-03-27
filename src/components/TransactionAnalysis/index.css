@@ -1,0 +1,30 @@
+.transaction{
+    display: flex;
+    width: 23rem;
+    height: 6.5rem;
+    background: #FFFFFF;
+    border: 1px solid #EEF8FD;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-right: .7rem;
+    padding: 1rem;
+}
+
+.transaction:last-child{
+    margin-right: 0rem;
+}
+
+.text__content{
+    margin-right: 1rem;
+}
+
+.title{
+ font-size: 12px;
+ line-height: 16px;
+ color: #787C90;
+}
+
+.amount{
+font-size: 18px;
+line-height: 24px;
+}
