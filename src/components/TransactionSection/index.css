@@ -1,5 +1,6 @@
 .transaction__section{
     display: flex;
+    margin-bottom: 3rem;
 }
 .transaction__section--content{
     display: flex;
