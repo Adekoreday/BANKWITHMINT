@@ -4,7 +4,7 @@ import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import { withStyles } from "@material-ui/core/styles";
 const styles = theme => ({
   margin: {
-    margin: theme.spacing.unit * 1
+    margin: '5px',
   },
   customBadge: {
     backgroundColor: "#1875F0",
