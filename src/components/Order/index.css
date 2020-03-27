@@ -1,0 +1,20 @@
+.order{
+    background-color: #FFFFFF;
+    margin:  0rem 1rem 1rem 1rem; 
+    padding: 2rem;
+}
+
+.order:last-child{
+    margin:  0rem 1rem 0rem 1rem; 
+}
+
+.order__item{
+    color: #262626;
+    padding: .5em 0rem;
+}
+
+.title__order{
+    color: #262626;
+    font-weight: 400;
+    padding: .5em 0rem;
+}

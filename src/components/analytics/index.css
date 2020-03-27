@@ -1,0 +1,7 @@
+.analytics{
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 70rem;
+  box-sizing: border-box;
+}

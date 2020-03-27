@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NotFound from '../notfound';
 import SideNav from '../sideNav';
+import Analytics from '../analytics';
 import TransactionSection from '../TransactionSection';
 import AllPaymentsImg from '../../images/svg/allPayments.svg';
 import OverviewImg from '../../images/svg/speedometer.svg';
@@ -11,6 +12,7 @@ import AllOrdersImg from '../../images/svg/allOrder.svg';
 import PendingOrdersImg from '../../images/svg/pendingOrder.svg';
 import ReconciledOrdersImg from '../../images/svg/reconcileOrder.svg';
 import MerchantProfileImg from '../../images/svg/merchantProfile.svg';
+
 import './index.css';
 
 class UserDashBoard extends Component {
@@ -116,7 +118,8 @@ class UserDashBoard extends Component {
 
           </div>
           <div className="user_dashboard">
-            <TransactionSection />
+           <TransactionSection />
+            <Analytics />
           </div>
         </div>
       );
