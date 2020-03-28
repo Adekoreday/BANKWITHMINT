@@ -10,7 +10,7 @@ const TransactionAnalysis = (props) => {
                 <div className='title'>{title}</div>
                 <div className='amount'>{amount}</div>
             </div>
-            <img src={TransactionImg} />
+            <img src={TransactionImg} alt='transaction_img'/>
         </div>
     );
 };

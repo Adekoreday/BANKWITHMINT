@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import NotFound from '../notfound';
 import SideNav from '../sideNav';
 import Analytics from '../analytics';
+import Payment from '../Payment';
+import Pagination from '../Pagination';
 import TransactionSection from '../TransactionSection';
 import AllPaymentsImg from '../../images/svg/allPayments.svg';
+import Table from '../Table';
 import OverviewImg from '../../images/svg/speedometer.svg';
 import ReconciledPayImg from '../../images/svg/reconcilePay.svg';
 import UnReconciledPayImg from '../../images/svg/unreconcilePay.svg';
@@ -120,6 +123,9 @@ class UserDashBoard extends Component {
           <div className="user_dashboard">
            <TransactionSection />
             <Analytics />
+            <div><Payment /></div>
+            <div className='table'><Table /></div>
+            <Pagination/>
           </div>
         </div>
       );
