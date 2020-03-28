@@ -79,9 +79,8 @@ export default class LinearChart extends React.Component {
     return (
       <ReactFusioncharts
         type="area2d"
-        width="43%"
-        height="40%"
         dataFormat="JSON"
+        width="43%"
         dataSource={dataSource}
       />
     );

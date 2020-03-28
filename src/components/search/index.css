@@ -3,12 +3,27 @@
    font-size: 1.2rem;
    line-height: 1.6rem;
 }
+.search__input--payment{
+    border: none;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    background-color: #F7F8FA;
+}
 textarea:focus, input:focus{
     outline: none;
 }
 .search{
   box-sizing: border-box;
   padding-top: .7rem;
+}
+
+.search__payment{
+    box-sizing: border-box;
+    width: 25rem;
+    margin-top: -1.5rem;
+    padding-top: .7rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid grey;
 }
 .search__icon{
     margin-right: 2rem;

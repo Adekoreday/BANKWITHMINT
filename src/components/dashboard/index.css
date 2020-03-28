@@ -1,6 +1,5 @@
 .user_dashboard{
     display: flex;
-    height: 100%;
     flex-direction: column;
     width: auto;
     justify-content: flex-start;
@@ -18,11 +17,9 @@
 .dashboard{
     display: flex;
     width: 100vw;
-    height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
-    z-index:-1;
     background-color: #F7F8FA;
 }
 
@@ -48,4 +45,9 @@ line-height: 15px;
 margin-left: 5rem;
 color: #647787;
 margin-bottom: 1.4rem;
+}
+
+.table{
+    padding-right: 3.8rem;
+    display: block;
 }

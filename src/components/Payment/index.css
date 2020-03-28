@@ -1,0 +1,25 @@
+.payments{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.payments__item{
+    margin-right: 14rem;
+}
+.show{
+    margin: -.5rem 1rem 0rem 1rem;
+}
+.showing{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.payment__title{
+margin: 2rem 0rem;
+font-size: 24px;
+line-height: 32px;
+font-weight: 400;
+display: flex;
+align-items: flex-end;
+}

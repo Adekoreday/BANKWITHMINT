@@ -1,0 +1,64 @@
+.unreconcilled{
+border: 1px solid #CCCFD4;
+width: 120px;
+height: 33px;
+box-sizing: border-box;
+border-radius: 30px;
+color: #7F8FA4;
+padding: .8rem;
+display:flex;
+font-size: 1.3rem;
+justify-content: flex-start;
+}
+
+.reconcilled{
+border: 1px solid #CCCFD4;
+width: 120px;
+height: 33px;
+box-sizing: border-box;
+border-radius: 30px;
+color: #27AE60;
+padding: .8rem;
+display:flex;
+justify-content: flex-start;
+}
+
+.pending{
+    color: #EBC315;
+border: 1px solid #CCCFD4;
+width: 120px;
+height: 33px;
+box-sizing: border-box;
+border-radius: 30px;
+padding: .8rem;
+display:flex;
+justify-content: flex-start;
+}
+
+.dropdownImg{
+    margin-right: -2rem;
+    padding-left: 1rem;
+}
+
+.status__container{
+    display: flex;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: .2rem;
+  }
+
+  .pending__dot{
+      background-color: #EBC315;
+  }
+  .reconcilled__dot{
+    background-color: #27AE60;
+}
+.unreconcilled__dot{
+    background-color: #7F8FA4;
+}
