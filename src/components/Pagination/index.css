@@ -31,10 +31,11 @@ box-sizing: border-box;
 .pagination__text{
     font-size: 13px;
 line-height: 17px;
-margin-right: 60rem;
+margin-right: 60%;
 }
 
 .pagination__group{
     display: flex;
     margin-top: -.5rem;
+
 }
