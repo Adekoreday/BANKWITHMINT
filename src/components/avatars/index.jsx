@@ -10,14 +10,23 @@ const useStyles = makeStyles(() => createStyles({
       backgroundColor: 'none',
       marginTop: '-10px',
       fontSize: '32px'
+    },
+    custom: {
+      borderRadius: '50%',
+      width: '25px',
+      height: '25px',
+      backgroundColor: '#7F8FA4',
+      marginRight: '1rem'
     }
   }));
 
 
-const Avatars = () => {
+const Avatars = (props) => {
     const classes = useStyles();
     return (
-             <Avatar className={classes.root} alt="Remy Sharp" src="https://res.cloudinary.com/kaytronics/image/upload/ar_1:1,b_rgb:315387,bo_5px_solid_rgb:ffffff,c_fill,g_auto,q_21,r_max,w_1000/v1585249324/IMG_20191227_110232_357-removebg-preview_copy_oede60.png" />
+               props.type ==='profile' ? <Avatar className={classes.root} alt={props.img} src={props.img} /> : 
+               <Avatar className={classes.custom} alt={props.img} src={props.img} >vw</Avatar> 
+              
     );
 };
 

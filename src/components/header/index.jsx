@@ -11,7 +11,7 @@ const header = () => {
             <div className='header__logo'>
                 TransMonitor
             </div>
-            <Search/>
+            <Search type='header'/>
             </div>
             <div className='header__right'>
                <div className='header__items'>Support</div> 
@@ -21,7 +21,9 @@ const header = () => {
                    <div className='user__welcome'>Hello</div>
                    <div className='user__fullname'>Adeyemi Adekorede</div>
                    </div> 
-               <div className='header__items'><Avatar/></div> 
+               <div className='header__items'><Avatar 
+               type='profile'
+               img='https://res.cloudinary.com/kaytronics/image/upload/ar_1:1,b_rgb:315387,bo_5px_solid_rgb:ffffff,c_fill,g_auto,q_21,r_max,w_1000/v1585249324/IMG_20191227_110232_357-removebg-preview_copy_oede60.png'/></div> 
             </div>
 
         </div>
